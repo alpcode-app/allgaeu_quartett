@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Allgäu Quartett</title>
+  <meta name="description" content="Die 32 Skigebiete des Allgäu Quartetts mit 3D-Gelände, Wetter und Zusatzinfos.">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="seite">
+    <header class="kopf">
+      <img class="logo" src="logo.png" alt="">
+      <div>
+        <h1>Allgäu Quartett</h1>
+        <div class="unter">32 Skigebiete der Allgäuer Alpen · 3D-Gelände · Wetter</div>
+      </div>
+    </header>
+    <input id="suche" class="suche" type="search" placeholder="Skigebiet oder Ort suchen …" aria-label="Suche">
+    <div id="liste"><p>Karten werden geladen …</p></div>
+    <p class="fuss">
+      Gelände: Copernicus DEM GLO-30 © DLR e.V./Airbus · Karte: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> (ODbL) ·
+      Wetter: <a href="https://open-meteo.com/">Open-Meteo</a> (CC BY 4.0) · Angaben ca. · <a href="datenschutz.html">Datenschutz</a>
+    </p>
+  </main>
+  <script src="app.js"></script>
+  <script>uebersicht();</script>
+</body>
+</html>

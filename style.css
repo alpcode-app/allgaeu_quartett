@@ -1,0 +1,125 @@
+:root {
+  --bg: #0b1730;
+  --bg2: #12244a;
+  --karte: rgba(255, 255, 255, 0.07);
+  --rand: rgba(255, 255, 255, 0.14);
+  --text: #eef3fb;
+  --leise: #a9b8d3;
+  --gold: #f2be3c;
+  --akzent: #78b4ff;
+  --leicht: #2f6fe0;
+  --mittel: #d8343b;
+  --schwer: #222;
+  --route: #f08c14;
+}
+:root[data-theme="light"] {
+  --bg: #eef3fa;
+  --bg2: #dde7f5;
+  --karte: #ffffff;
+  --rand: #cfdaea;
+  --text: #13203a;
+  --leise: #53627d;
+  --akzent: #1b5fc9;
+  --schwer: #111;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #eef3fa;
+    --bg2: #dde7f5;
+    --karte: #ffffff;
+    --rand: #cfdaea;
+    --text: #13203a;
+    --leise: #53627d;
+    --akzent: #1b5fc9;
+    --schwer: #111;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  background: linear-gradient(180deg, var(--bg2), var(--bg) 420px) fixed;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+a { color: var(--akzent); }
+.seite { max-width: 960px; margin: 0 auto; padding: 16px; }
+
+/* Kopf */
+.kopf { display: flex; align-items: center; gap: 12px; margin: 4px 0 18px; }
+.kopf img.logo { width: 52px; height: 52px; border-radius: 14px; }
+.kopf h1 { font-size: 1.6rem; margin: 0; line-height: 1.1; }
+.kopf .unter { color: var(--leise); font-size: .95rem; }
+.zurueck { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 600; margin-bottom: 10px; }
+
+/* Übersicht */
+.suche { width: 100%; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--rand);
+  background: var(--karte); color: var(--text); font-size: 1rem; margin-bottom: 18px; }
+.gruppe h2 { font-size: 1.05rem; margin: 18px 0 10px; display: flex; align-items: center; gap: 10px; }
+.abz { display: inline-grid; place-items: center; min-width: 32px; height: 32px; padding: 0 8px; border-radius: 16px;
+  font-weight: 800; color: #fff; font-size: .95rem; }
+.raster { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.raster a { display: block; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.25);
+  transition: transform .15s; }
+.raster a:hover { transform: translateY(-3px); }
+.raster img { width: 100%; display: block; aspect-ratio: 750 / 1157; object-fit: cover; }
+
+/* Detail */
+.titel { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.titel h1 { margin: 0; font-size: 1.9rem; line-height: 1.1; }
+.titel .ort { color: var(--leise); }
+.titel .abz { min-width: 52px; height: 52px; border-radius: 26px; font-size: 1.25rem; border: 3px solid #fff; }
+
+.box { background: var(--karte); border: 1px solid var(--rand); border-radius: 18px; padding: 16px; margin: 14px 0; }
+.box h2 { font-size: 1.05rem; margin: 0 0 12px; }
+
+.modell { position: relative; height: min(62vh, 520px, 92vw); border-radius: 18px; overflow: hidden; margin: 14px 0;
+  background: linear-gradient(180deg, #5d93dd, #d7e8fb); }
+model-viewer { width: 100%; height: 100%; --poster-color: transparent; }
+.modell .knoepfe { position: absolute; left: 10px; bottom: 10px; display: flex; gap: 8px; }
+.knopf { border: 0; border-radius: 12px; padding: 9px 13px; font-weight: 700; font-size: .9rem; cursor: pointer;
+  background: rgba(10, 20, 40, .72); color: #fff; }
+.modell .hinweis { position: absolute; left: 10px; top: 10px; background: rgba(10,20,40,.65); color: #fff;
+  padding: 5px 10px; border-radius: 10px; font-size: .8rem; }
+.lade { position: absolute; inset: auto 0 0 0; height: 4px; background: rgba(255,255,255,.3); }
+.lade span { display: block; height: 100%; width: 0; background: var(--gold); transition: width .2s; }
+
+.raster2 { display: grid; grid-template-columns: 1fr; gap: 0 18px; }
+@media (min-width: 760px) { .raster2 { grid-template-columns: 1fr 1fr; } }
+
+.wert { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; margin: 0 0 12px; }
+.wert .n { font-weight: 600; }
+.wert .v { font-weight: 800; text-align: right; }
+.wert .balken { grid-column: 1 / -1; height: 8px; border-radius: 4px; background: var(--rand); overflow: hidden; }
+.wert .balken span { display: block; height: 100%; border-radius: 4px; }
+.wert .platz { grid-column: 1 / -1; color: var(--leise); font-size: .82rem; }
+.wert.best .v::before { content: "★ "; color: var(--gold); }
+
+.wetter { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.wetter .ort { border-radius: 14px; padding: 12px; background: rgba(120,180,255,.10); }
+.wetter .temp { font-size: 2rem; font-weight: 800; line-height: 1.1; }
+.wetter .icon { font-size: 1.8rem; }
+.wetter .klein { color: var(--leise); font-size: .85rem; }
+.tage { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+.tage div { text-align: center; border-radius: 12px; padding: 8px 4px; background: rgba(120,180,255,.08); font-size: .9rem; }
+.tage .icon { font-size: 1.5rem; }
+
+.lifte { list-style: none; padding: 0; margin: 0; columns: 2 200px; }
+.lifte li { padding: 4px 0; break-inside: avoid; }
+.lifte .typ { color: var(--leise); font-size: .85rem; }
+.pistenbalken { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 6px 0 8px; }
+.legende { display: flex; flex-wrap: wrap; gap: 12px; font-size: .88rem; color: var(--leise); }
+.legende i { display: inline-block; width: 10px; height: 10px; border-radius: 5px; margin-right: 5px; }
+
+.kartenbild { width: 100%; max-width: 330px; display: block; margin: 0 auto; border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35); cursor: zoom-in; }
+.kartenbild.gross { max-width: 560px; cursor: zoom-out; }
+.highlight { font-size: 1.05rem; }
+.highlight::before { content: "★ "; color: var(--gold); }
+.nav { display: flex; justify-content: space-between; gap: 10px; margin: 18px 0; }
+.nav a { text-decoration: none; font-weight: 700; padding: 10px 14px; border-radius: 12px; background: var(--karte);
+  border: 1px solid var(--rand); }
+.fuss { color: var(--leise); font-size: .82rem; margin: 26px 0 10px; }
+.fehler { color: #ff8a8a; }

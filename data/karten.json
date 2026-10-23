@@ -1,0 +1,1963 @@
+{
+ "kategorien": [
+  {
+   "name": "Gipfelhöhe",
+   "einheit": "m"
+  },
+  {
+   "name": "Pistenkilometer",
+   "einheit": "km"
+  },
+  {
+   "name": "Anzahl Lifte",
+   "einheit": ""
+  },
+  {
+   "name": "Höhenunterschied",
+   "einheit": "m"
+  },
+  {
+   "name": "Längste Abfahrt",
+   "einheit": "km"
+  }
+ ],
+ "karten": [
+  {
+   "id": "A1",
+   "gruppe": "A",
+   "gruppenname": "Oberstdorf",
+   "name": "Nebelhorn",
+   "ort": "Oberstdorf",
+   "werte": [
+    2224.0,
+    13.0,
+    7.0,
+    1400.0,
+    7.5
+   ],
+   "highlight": "Höchstes Skigebiet im Allgäu: Die Nebelhornbahn fährt in drei Sektionen bis auf 2.224 m, mit Rundumblick über die Allgäuer Alpen.",
+   "lat": 47.4133,
+   "lon": 10.31834,
+   "tal": 824,
+   "gipfel": 2224,
+   "gelaende": [
+    765,
+    2224
+   ],
+   "lifte": [
+    {
+     "name": "NTC Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Nebelhornbahn Sektion I",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Nebelhornbahn Sektion II",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Seealplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Nebelhornbahn Sektion III",
+     "typ": "Seilbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Koblatbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Sonngehrenbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 2.5,
+    "mittel": 4.8,
+    "schwer": 4.3
+   },
+   "bild": "karten/A1.webp",
+   "modell": "modelle/A1.glb"
+  },
+  {
+   "id": "A2",
+   "gruppe": "A",
+   "gruppenname": "Oberstdorf",
+   "name": "Fellhorn / Kanzelwand",
+   "ort": "Oberstdorf",
+   "werte": [
+    1970.0,
+    36.0,
+    14.0,
+    1050.0,
+    5.7
+   ],
+   "highlight": "Grenzenlos Skifahren: Das Gebiet verbindet Oberstdorf mit dem Kleinwalsertal, auf Skiern geht es von Deutschland nach Österreich.",
+   "lat": 47.34514,
+   "lon": 10.22206,
+   "tal": 920,
+   "gipfel": 1970,
+   "gelaende": [
+    843,
+    2276
+   ],
+   "lifte": [
+    {
+     "name": "Fellhornbahn II Lower",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fellhornbahn II Upper",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kanzelwandbahn",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ideallift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kesslerlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schwandlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fellhorn-Gipfelbahn",
+     "typ": "Seilbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fellhornbahn I",
+     "typ": "Seilbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Bierenwangbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Möserbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Scheidtobelbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "See-Eckbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Zweiländerbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Zwerenalpbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 13.2,
+    "mittel": 15.6,
+    "schwer": 2.5
+   },
+   "bild": "karten/A2.webp",
+   "modell": "modelle/A2.glb"
+  },
+  {
+   "id": "A3",
+   "gruppe": "A",
+   "gruppenname": "Oberstdorf",
+   "name": "Söllereck",
+   "ort": "Oberstdorf",
+   "werte": [
+    1440.0,
+    14.0,
+    8.0,
+    620.0,
+    3.5
+   ],
+   "highlight": "Familienberg direkt bei Oberstdorf mit sonnigen, breiten Hängen und Blick ins Oberstdorfer Tal.",
+   "lat": 47.39013,
+   "lon": 10.24614,
+   "tal": 820,
+   "gipfel": 1440,
+   "gelaende": [
+    789,
+    1706
+   ],
+   "lifte": [
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Söllereckbahn I",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Söllereckbahn II",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Höllwieslift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ochsenhöflelift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Wannenköpflelift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schrattenwangbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 7.3,
+    "mittel": 3.4,
+    "schwer": 0.6
+   },
+   "bild": "karten/A3.webp",
+   "modell": "modelle/A3.glb"
+  },
+  {
+   "id": "A4",
+   "gruppe": "A",
+   "gruppenname": "Oberstdorf",
+   "name": "Ifen",
+   "ort": "Hirschegg",
+   "werte": [
+    2030.0,
+    24.0,
+    5.0,
+    790.0,
+    5.0
+   ],
+   "highlight": "Unter der markanten Felsmauer des Hohen Ifen liegen schneesichere Hänge am Rand des Gottesackerplateaus.",
+   "lat": 47.35148,
+   "lon": 10.12577,
+   "tal": 1240,
+   "gipfel": 2030,
+   "gelaende": [
+    1151,
+    2210
+   ],
+   "lifte": [
+    {
+     "name": "Ifen I",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ifen II",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Olympiabahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gaisbühllift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 10.3,
+    "mittel": 6.2,
+    "schwer": 4.5
+   },
+   "bild": "karten/A4.webp",
+   "modell": "modelle/A4.glb"
+  },
+  {
+   "id": "B1",
+   "gruppe": "B",
+   "gruppenname": "Kleinwalsertal & Hörner",
+   "name": "Walmendingerhorn",
+   "ort": "Mittelberg",
+   "werte": [
+    1940.0,
+    14.0,
+    7.0,
+    780.0,
+    4.0
+   ],
+   "highlight": "Die Seilbahn fährt ab Mittelberg. Oben warten steile Hänge und Freeride-Klassiker über dem Kleinwalsertal.",
+   "lat": 47.32252,
+   "lon": 10.13337,
+   "tal": 1160,
+   "gipfel": 1940,
+   "gelaende": [
+    1112,
+    1981
+   ],
+   "lifte": [
+    {
+     "name": "Förderband Schützabühl",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Mooslift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Walmendingerhornbahn",
+     "typ": "Seilbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Seillift",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Doppelsessellift Walmendingerhorn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Muttelberg",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Jedermannlift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 2.4,
+    "mittel": 8.7,
+    "schwer": 1.8
+   },
+   "bild": "karten/B1.webp",
+   "modell": "modelle/B1.glb"
+  },
+  {
+   "id": "B2",
+   "gruppe": "B",
+   "gruppenname": "Kleinwalsertal & Hörner",
+   "name": "Heuberg",
+   "ort": "Riezlern",
+   "werte": [
+    1480.0,
+    18.0,
+    8.0,
+    410.0,
+    2.0
+   ],
+   "highlight": "Sonniger Hausberg zwischen Riezlern und Hirschegg mit gemütlichen Abfahrten, ideal für Einsteiger.",
+   "lat": 47.33893,
+   "lon": 10.16427,
+   "tal": 1070,
+   "gipfel": 1480,
+   "gelaende": [
+    1007,
+    2106
+   ],
+   "lifte": [
+    {
+     "name": "Parsennbahn",
+     "typ": "Kombibahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Heubergmuldenlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hubertuslift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlösslellift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schöntallift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ski-Kuli Parsenn",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Heubergbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Zafernabahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 12.6,
+    "mittel": 4.0,
+    "schwer": 1.0
+   },
+   "bild": "karten/B2.webp",
+   "modell": "modelle/B2.glb"
+  },
+  {
+   "id": "B3",
+   "gruppe": "B",
+   "gruppenname": "Kleinwalsertal & Hörner",
+   "name": "Hörnerbahn",
+   "ort": "Bolsterlang",
+   "werte": [
+    1660.0,
+    18.0,
+    6.0,
+    770.0,
+    6.0
+   ],
+   "highlight": "Panorama-Pisten auf den Allgäuer Hörnern hoch über Bolsterlang, mit weitem Blick ins Illertal.",
+   "lat": 47.46246,
+   "lon": 10.21607,
+   "tal": 890,
+   "gipfel": 1660,
+   "gelaende": [
+    841,
+    1670
+   ],
+   "lifte": [
+    {
+     "name": "Hörnerbahn I",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hörnerbahn II",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Dorflift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Stuibeneckbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Weiherkopfbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hörnis Übungslift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 6.3,
+    "mittel": 4.8,
+    "schwer": 1.8
+   },
+   "bild": "karten/B3.webp",
+   "modell": "modelle/B3.glb"
+  },
+  {
+   "id": "B4",
+   "gruppe": "B",
+   "gruppenname": "Kleinwalsertal & Hörner",
+   "name": "Grasgehren",
+   "ort": "Obermaiselstein",
+   "werte": [
+    1670.0,
+    11.0,
+    5.0,
+    240.0,
+    3.0
+   ],
+   "highlight": "Am Riedbergpass, dem höchsten Straßenpass Deutschlands: ein Gebiet, das oft lange Schnee hat.",
+   "lat": 47.44429,
+   "lon": 10.17424,
+   "tal": 1430,
+   "gipfel": 1670,
+   "gelaende": [
+    1243,
+    1784
+   ],
+   "lifte": [
+    {
+     "name": "Hörnle Lift (3)",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hörnle Lift (4)",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Uisar",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Bolgengratbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 3.0,
+    "mittel": 5.4,
+    "ohne Angabe": 0.8
+   },
+   "bild": "karten/B4.webp",
+   "modell": "modelle/B4.glb"
+  },
+  {
+   "id": "C1",
+   "gruppe": "C",
+   "gruppenname": "Balderschwang & Nagelfluhkette",
+   "name": "Balderschwang",
+   "ort": "Balderschwang",
+   "werte": [
+    1480.0,
+    40.0,
+    11.0,
+    460.0,
+    5.0
+   ],
+   "highlight": "„Bayerisch Sibirien“: Balderschwang gilt als eines der schneereichsten Hochtäler Deutschlands.",
+   "lat": 47.45343,
+   "lon": 10.11857,
+   "tal": 1020,
+   "gipfel": 1480,
+   "gelaende": [
+    987,
+    1667
+   ],
+   "lifte": [
+    {
+     "name": "Angerlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gelbhansekopflift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gschwendlift I",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gschwendlift II",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Rauhbachlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schwarzenberglift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hochschelpenbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Riedbergerhornbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schelpenbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Höflealplift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schwabenhoflift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 1.3,
+    "leicht": 14.4,
+    "mittel": 8.5,
+    "ohne Angabe": 0.0,
+    "schwer": 3.6
+   },
+   "bild": "karten/C1.webp",
+   "modell": "modelle/C1.glb"
+  },
+  {
+   "id": "C2",
+   "gruppe": "C",
+   "gruppenname": "Balderschwang & Nagelfluhkette",
+   "name": "Imberg",
+   "ort": "Steibis",
+   "werte": [
+    1340.0,
+    18.0,
+    12.0,
+    480.0,
+    2.5
+   ],
+   "highlight": "Die Imbergbahn führt von Steibis zu Pisten mit Fernblick über das Westallgäu bis zum Bodensee.",
+   "lat": 47.51626,
+   "lon": 10.01262,
+   "tal": 860,
+   "gipfel": 1340,
+   "gelaende": [
+    637,
+    1388
+   ],
+   "lifte": [
+    {
+     "name": "Imbergbahn",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Babylift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Babylift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Bärenlochlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fehrlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fuchskarlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Förderband",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Nordlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schindelberglift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Fluhexpress",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Dreistarlift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hochbühllift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hohenegglift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kirchhanglift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 9.8,
+    "mittel": 4.0,
+    "schwer": 2.5
+   },
+   "bild": "karten/C2.webp",
+   "modell": "modelle/C2.glb"
+  },
+  {
+   "id": "C3",
+   "gruppe": "C",
+   "gruppenname": "Balderschwang & Nagelfluhkette",
+   "name": "Hochgrat",
+   "ort": "Oberstaufen",
+   "werte": [
+    1708.0,
+    0.0,
+    1.0,
+    850.0,
+    3.0
+   ],
+   "highlight": "Die Hochgratbahn fährt bis knapp unter den höchsten Gipfel der Nagelfluhkette. Präpariert wird nicht: rund 15 km Skirouten für Könner.",
+   "lat": 47.50053,
+   "lon": 10.06537,
+   "tal": 858,
+   "gipfel": 1708,
+   "gelaende": [
+    815,
+    1830
+   ],
+   "lifte": [
+    {
+     "name": "Hochgratbahn",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "mittel": 4.7
+   },
+   "bild": "karten/C3.webp",
+   "modell": "modelle/C3.glb"
+  },
+  {
+   "id": "C4",
+   "gruppe": "C",
+   "gruppenname": "Balderschwang & Nagelfluhkette",
+   "name": "Hündle",
+   "ort": "Thalkirchdorf",
+   "werte": [
+    1170.0,
+    18.0,
+    8.0,
+    420.0,
+    2.5
+   ],
+   "highlight": "Familienfreundliches Gebiet bei Oberstaufen mit Kinderland und gemütlichen Hüttenabfahrten.",
+   "lat": 47.54221,
+   "lon": 10.06881,
+   "tal": 750,
+   "gipfel": 1170,
+   "gelaende": [
+    734,
+    1426
+   ],
+   "lifte": [
+    {
+     "name": "Hündle Bahn",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gratlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hoher-Teufellift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kinderteller",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Prodellift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schwandlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hochsiedel",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 10.1,
+    "mittel": 6.1,
+    "schwer": 0.5
+   },
+   "bild": "karten/C4.webp",
+   "modell": "modelle/C4.glb"
+  },
+  {
+   "id": "D1",
+   "gruppe": "D",
+   "gruppenname": "Oberallgäu & Ostallgäu",
+   "name": "Buchenberg",
+   "ort": "Halblech",
+   "werte": [
+    1129.0,
+    4.0,
+    3.0,
+    320.0,
+    2.0
+   ],
+   "highlight": "Kleines Familienskigebiet bei Buching im Ostallgäu mit Sessellift und rund 2,5 km langer beleuchteter Rodelbahn.",
+   "lat": 47.61014,
+   "lon": 10.81145,
+   "tal": 809,
+   "gipfel": 1129,
+   "gelaende": [
+    790,
+    1152
+   ],
+   "lifte": [
+    {
+     "name": "Buchenbergbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 2.9,
+    "leicht": 11.2,
+    "mittel": 3.8
+   },
+   "bild": "karten/D1.webp",
+   "modell": "modelle/D1.glb"
+  },
+  {
+   "id": "D2",
+   "gruppe": "D",
+   "gruppenname": "Oberallgäu & Ostallgäu",
+   "name": "Oberjoch",
+   "ort": "Bad Hindelang",
+   "werte": [
+    1560.0,
+    25.0,
+    8.0,
+    440.0,
+    3.5
+   ],
+   "highlight": "Hoch am Jochpass: Oberjoch zählt zu den höchstgelegenen Bergdörfern Deutschlands und ist sehr schneesicher.",
+   "lat": 47.51167,
+   "lon": 10.41727,
+   "tal": 1120,
+   "gipfel": 1560,
+   "gelaende": [
+    828,
+    1901
+   ],
+   "lifte": [
+    {
+     "name": "Idealhanglift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Grenzwiesbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Iselerbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schwandenbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Wiedhagbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 3.3,
+    "mittel": 19.9,
+    "schwer": 2.2
+   },
+   "bild": "karten/D2.webp",
+   "modell": "modelle/D2.glb"
+  },
+  {
+   "id": "D3",
+   "gruppe": "D",
+   "gruppenname": "Oberallgäu & Ostallgäu",
+   "name": "Adelharz-Breitenstein",
+   "ort": "Rettenberg",
+   "werte": [
+    1320.0,
+    9.5,
+    4.0,
+    340.0,
+    2.0
+   ],
+   "highlight": "Familienlifte am Fuß des Grünten bei Kranzegg. Gefahren wird bei Naturschnee mit Blick ins Illertal.",
+   "lat": 47.57834,
+   "lon": 10.33214,
+   "tal": 980,
+   "gipfel": 1320,
+   "gelaende": [
+    836,
+    1443
+   ],
+   "lifte": [
+    {
+     "name": "Adelharz Skilift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Adelharz Übungslift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Breitensteinlift 1",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Breitensteinlift 2",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 8.6,
+    "mittel": 1.8
+   },
+   "bild": "karten/D3.webp",
+   "modell": "modelle/D3.glb"
+  },
+  {
+   "id": "D4",
+   "gruppe": "D",
+   "gruppenname": "Oberallgäu & Ostallgäu",
+   "name": "Ellegglifte",
+   "ort": "Oy-Mittelberg",
+   "werte": [
+    1000.0,
+    1.1,
+    2.0,
+    60.0,
+    0.6
+   ],
+   "highlight": "Kleines Familienskigebiet an der Ellegg bei Oy-Mittelberg mit leichten Hängen und Rodelhügel.",
+   "lat": 47.63065,
+   "lon": 10.44276,
+   "tal": 940,
+   "gipfel": 1000,
+   "gelaende": [
+    875,
+    1072
+   ],
+   "lifte": [
+    {
+     "name": "Ellegg-Lift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift",
+     "typ": "Seillift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 1.1
+   },
+   "bild": "karten/D4.webp",
+   "modell": "modelle/D4.glb"
+  },
+  {
+   "id": "E1",
+   "gruppe": "E",
+   "gruppenname": "Ostallgäu & Westallgäu",
+   "name": "Alpspitze",
+   "ort": "Nesselwang",
+   "werte": [
+    1450.0,
+    10.0,
+    8.0,
+    550.0,
+    4.0
+   ],
+   "highlight": "Aussichtsreicher Hausberg von Nesselwang mit Kombibahn und Blick weit ins Alpenvorland.",
+   "lat": 47.60796,
+   "lon": 10.50027,
+   "tal": 900,
+   "gipfel": 1450,
+   "gelaende": [
+    859,
+    1570
+   ],
+   "lifte": [
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Alpspitz-Kombibahn I",
+     "typ": "Kombibahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Alpspitz-Kombibahn II",
+     "typ": "Kombibahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Babylift - Skischule",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kronenlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Stellenbichllift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Familienlift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 5.5,
+    "mittel": 2.3,
+    "schwer": 0.2
+   },
+   "bild": "karten/E1.webp",
+   "modell": "modelle/E1.glb"
+  },
+  {
+   "id": "E2",
+   "gruppe": "E",
+   "gruppenname": "Ostallgäu & Westallgäu",
+   "name": "Oberberg",
+   "ort": "Weiler-Simmerberg",
+   "werte": [
+    875.0,
+    1.3,
+    3.0,
+    120.0,
+    0.5
+   ],
+   "highlight": "Dorflifte am Oberberg bei Weiler im Westallgäu: kurze Wege, sanfte Hänge, ideal für Kinder.",
+   "lat": 47.58045,
+   "lon": 9.94175,
+   "tal": 755,
+   "gipfel": 875,
+   "gelaende": [
+    687,
+    921
+   ],
+   "lifte": [
+    {
+     "name": "Oberberglift I",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Oberberglift II",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 2.0
+   },
+   "bild": "karten/E2.webp",
+   "modell": "modelle/E2.glb"
+  },
+  {
+   "id": "E3",
+   "gruppe": "E",
+   "gruppenname": "Ostallgäu & Westallgäu",
+   "name": "Skizentrum Steinach",
+   "ort": "Pfronten",
+   "werte": [
+    1271.0,
+    6.0,
+    6.0,
+    410.0,
+    1.5
+   ],
+   "highlight": "Familienfreundliches Skizentrum am Ortsrand von Pfronten mit einer der längsten Flutlichtpisten im Allgäu.",
+   "lat": 47.56078,
+   "lon": 10.56158,
+   "tal": 861,
+   "gipfel": 1271,
+   "gelaende": [
+    837,
+    1834
+   ],
+   "lifte": [
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Familienlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ideallift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Standardlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Seillift",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Wedellifte 1+2",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Scheiberlift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 3.1,
+    "mittel": 3.5,
+    "schwer": 1.5
+   },
+   "bild": "karten/E3.webp",
+   "modell": "modelle/E3.glb"
+  },
+  {
+   "id": "E4",
+   "gruppe": "E",
+   "gruppenname": "Ostallgäu & Westallgäu",
+   "name": "Tegelberg",
+   "ort": "Schwangau",
+   "werte": [
+    1720.0,
+    6.0,
+    4.0,
+    910.0,
+    4.2
+   ],
+   "highlight": "Die Tegelbergbahn startet in Sichtweite von Schloss Neuschwanstein. Der Berg ist auch ein Hotspot für Gleitschirmflieger.",
+   "lat": 47.56574,
+   "lon": 10.76959,
+   "tal": 810,
+   "gipfel": 1720,
+   "gelaende": [
+    786,
+    1867
+   ],
+   "lifte": [
+    {
+     "name": "Adlerlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Reithlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Tegelbergbahn",
+     "typ": "Seilbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Falkenlift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gamslift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 1.7,
+    "mittel": 4.4
+   },
+   "bild": "karten/E4.webp",
+   "modell": "modelle/E4.glb"
+  },
+  {
+   "id": "F1",
+   "gruppe": "F",
+   "gruppenname": "Tannheimer Tal & Jungholz",
+   "name": "Neunerköpfle",
+   "ort": "Tannheim",
+   "werte": [
+    1800.0,
+    10.0,
+    6.0,
+    700.0,
+    3.5
+   ],
+   "highlight": "Hoch über Tannheim, im Tannheimer Tal, das sich als „schönstes Hochtal Europas“ bezeichnet.",
+   "lat": 47.48978,
+   "lon": 10.53623,
+   "tal": 1100,
+   "gipfel": 1800,
+   "gelaende": [
+    1091,
+    1877
+   ],
+   "lifte": [
+    {
+     "name": "Gondelbahn Neunerköpfle",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gundlift I",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gundlift II",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ressebichl",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Doppelsessellift Neunerköpfle",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 0.5,
+    "leicht": 2.0,
+    "mittel": 3.8,
+    "schwer": 0.8
+   },
+   "bild": "karten/F1.webp",
+   "modell": "modelle/F1.glb"
+  },
+  {
+   "id": "F2",
+   "gruppe": "F",
+   "gruppenname": "Tannheimer Tal & Jungholz",
+   "name": "Füssener Jöchle",
+   "ort": "Grän",
+   "werte": [
+    1850.0,
+    9.0,
+    5.0,
+    700.0,
+    4.0
+   ],
+   "highlight": "Gondel aus Grän zu breiten, sonnigen Pisten mit Blick auf die Tannheimer Berge.",
+   "lat": 47.50813,
+   "lon": 10.57932,
+   "tal": 1150,
+   "gipfel": 1850,
+   "gelaende": [
+    1104,
+    2049
+   ],
+   "lifte": [
+    {
+     "name": "Füssener Jöchle",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schachenlift I",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schachenlift II",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift Märchenwiese",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Jochalpe",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 2.2,
+    "mittel": 6.8,
+    "schwer": 0.4
+   },
+   "bild": "karten/F2.webp",
+   "modell": "modelle/F2.glb"
+  },
+  {
+   "id": "F3",
+   "gruppe": "F",
+   "gruppenname": "Tannheimer Tal & Jungholz",
+   "name": "Schattwald-Zöblen",
+   "ort": "Zöblen",
+   "werte": [
+    1570.0,
+    15.0,
+    4.0,
+    500.0,
+    1.5
+   ],
+   "highlight": "Am Fuß von Wannenjoch und Rohnenspitze: ruhige Pisten am Talschluss des Tannheimer Tals.",
+   "lat": 47.50486,
+   "lon": 10.46023,
+   "tal": 1070,
+   "gipfel": 1570,
+   "gelaende": [
+    1054,
+    1977
+   ],
+   "lifte": [
+    {
+     "name": "Stuibenlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Rohnenspitzbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Wannenjochbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Mühlhanglift",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 2.4,
+    "leicht": 6.1,
+    "mittel": 3.7
+   },
+   "bild": "karten/F3.webp",
+   "modell": "modelle/F3.glb"
+  },
+  {
+   "id": "F4",
+   "gruppe": "F",
+   "gruppenname": "Tannheimer Tal & Jungholz",
+   "name": "Sorgschrofen",
+   "ort": "Jungholz",
+   "werte": [
+    1400.0,
+    12.0,
+    7.0,
+    340.0,
+    3.0
+   ],
+   "highlight": "Jungholz ist eine österreichische Enklave, die nur über Deutschland erreichbar ist. Mit Österreich verbindet sie nur der Gipfel des Sorgschrofens.",
+   "lat": 47.56618,
+   "lon": 10.45359,
+   "tal": 1060,
+   "gipfel": 1400,
+   "gelaende": [
+    979,
+    1622
+   ],
+   "lifte": [
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": true
+    },
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": true
+    },
+    {
+     "name": "Schwandlift",
+     "typ": "Schlepplift",
+     "stillgelegt": true
+    },
+    {
+     "name": "Sorgschrofenlift I",
+     "typ": "Schlepplift",
+     "stillgelegt": true
+    },
+    {
+     "name": "Sorgschrofenlift II",
+     "typ": "Schlepplift",
+     "stillgelegt": true
+    },
+    {
+     "name": "Steineberglift",
+     "typ": "Schlepplift",
+     "stillgelegt": true
+    },
+    {
+     "name": "Adlersesselbahn",
+     "typ": "Sessellift",
+     "stillgelegt": true
+    },
+    {
+     "name": "Bischlagsesselbahn",
+     "typ": "Sessellift",
+     "stillgelegt": true
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 1.1,
+    "leicht": 5.4,
+    "mittel": 1.9,
+    "schwer": 0.2
+   },
+   "bild": "karten/F4.webp",
+   "modell": "modelle/F4.glb"
+  },
+  {
+   "id": "G1",
+   "gruppe": "G",
+   "gruppenname": "Weitere Allgäuer Gebiete",
+   "name": "Unterjoch",
+   "ort": "Unterjoch",
+   "werte": [
+    1370.0,
+    10.0,
+    6.0,
+    330.0,
+    2.5
+   ],
+   "highlight": "Ruhiges Bergdorf an der Grenze zu Tirol, ideal zum Skifahrenlernen.",
+   "lat": 47.53414,
+   "lon": 10.4158,
+   "tal": 1040,
+   "gipfel": 1370,
+   "gelaende": [
+    1001,
+    1626
+   ],
+   "lifte": [
+    {
+     "name": "Großer Spieserlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kleiner Spieserlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Sonnenhanglift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Seillift",
+     "typ": "Seillift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 3.8,
+    "mittel": 3.3
+   },
+   "bild": "karten/G1.webp",
+   "modell": "modelle/G1.glb"
+  },
+  {
+   "id": "G2",
+   "gruppe": "G",
+   "gruppenname": "Weitere Allgäuer Gebiete",
+   "name": "Buronlifte",
+   "ort": "Wertach",
+   "werte": [
+    1417.0,
+    8.0,
+    4.0,
+    520.0,
+    2.5
+   ],
+   "highlight": "Am Buron zieht der Große Schlepplift, einer der längsten Schlepplifte im Allgäu, über 1,6 km den Hang hinauf.",
+   "lat": 47.60221,
+   "lon": 10.45421,
+   "tal": 897,
+   "gipfel": 1417,
+   "gelaende": [
+    874,
+    1538
+   ],
+   "lifte": [
+    {
+     "name": "Blässe-Lift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Buron 1",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 0.1,
+    "mittel": 5.0,
+    "schwer": 0.5
+   },
+   "bild": "karten/G2.webp",
+   "modell": "modelle/G2.glb"
+  },
+  {
+   "id": "G3",
+   "gruppe": "G",
+   "gruppenname": "Weitere Allgäuer Gebiete",
+   "name": "Thaler Höhe",
+   "ort": "Missen-Wilhams",
+   "werte": [
+    1150.0,
+    4.0,
+    4.0,
+    210.0,
+    1.0
+   ],
+   "highlight": "Genossenschaftlicher Bürgerlift auf der Thaler Höhe, seit 1967 von Freiwilligen betrieben.",
+   "lat": 47.58212,
+   "lon": 10.11327,
+   "tal": 940,
+   "gipfel": 1150,
+   "gelaende": [
+    910,
+    1198
+   ],
+   "lifte": [
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schlepplift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Seillift",
+     "typ": "Seillift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 3.6,
+    "mittel": 0.6
+   },
+   "bild": "karten/G3.webp",
+   "modell": "modelle/G3.glb"
+  },
+  {
+   "id": "G4",
+   "gruppe": "G",
+   "gruppenname": "Weitere Allgäuer Gebiete",
+   "name": "Ofterschwanger Horn",
+   "ort": "Ofterschwang",
+   "werte": [
+    1406.0,
+    17.0,
+    7.0,
+    520.0,
+    3.5
+   ],
+   "highlight": "Weltcup-Hang über Ofterschwang: Hier fuhren die besten Skirennläuferinnen der Welt, oben trifft man auf Gunzesried.",
+   "lat": 47.5053,
+   "lon": 10.22049,
+   "tal": 886,
+   "gipfel": 1406,
+   "gelaende": [
+    770,
+    1405
+   ],
+   "lifte": [
+    {
+     "name": "Ossi-Reichert-Bahn Sektion 1",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Ossi-Reichert-Bahn Sektion 2",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Alpe Eck Lift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Kinderland Bergstation",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift Ofterschwang",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Gipfel 6er",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Weltcup-Express",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 4.4,
+    "mittel": 8.3,
+    "schwer": 3.3
+   },
+   "bild": "karten/G4.webp",
+   "modell": "modelle/G4.glb"
+  },
+  {
+   "id": "H1",
+   "gruppe": "H",
+   "gruppenname": "Grenzgebiete & Dorflifte",
+   "name": "Hahnenkamm",
+   "ort": "Höfen",
+   "werte": [
+    1880.0,
+    16.0,
+    5.0,
+    960.0,
+    3.0
+   ],
+   "highlight": "Hausberg von Reutte direkt hinter der Grenze bei Füssen: Die Kabinenbahn führt in zwei Sektionen auf fast 1.900 m.",
+   "lat": 47.47568,
+   "lon": 10.66007,
+   "tal": 920,
+   "gipfel": 1880,
+   "gelaende": [
+    854,
+    1990
+   ],
+   "lifte": [
+    {
+     "name": "Hahnenkammbahn Höfen",
+     "typ": "Gondelbahn",
+     "stillgelegt": false
+    },
+    {
+     "name": "Höfener Almbahn",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 1.2,
+    "mittel": 7.0,
+    "schwer": 0.4
+   },
+   "bild": "karten/H1.webp",
+   "modell": "modelle/H1.glb"
+  },
+  {
+   "id": "H2",
+   "gruppe": "H",
+   "gruppenname": "Grenzgebiete & Dorflifte",
+   "name": "Hochhäderich",
+   "ort": "Hittisau",
+   "werte": [
+    1500.0,
+    10.5,
+    5.0,
+    280.0,
+    1.5
+   ],
+   "highlight": "Auf der Grenze zwischen Allgäu und Bregenzerwald: schneesichere Hochfläche mit weitem Blick bis zum Bodensee.",
+   "lat": 47.48471,
+   "lon": 9.98805,
+   "tal": 1220,
+   "gipfel": 1500,
+   "gelaende": [
+    1104,
+    1552
+   ],
+   "lifte": [
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Förderband",
+     "typ": "Förderband",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hochhäderich I",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hochhäderich II",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Pfangerlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Schmidlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Hennenmoos",
+     "typ": "Sessellift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 0.3,
+    "leicht": 1.7,
+    "mittel": 6.0,
+    "schwer": 2.0
+   },
+   "bild": "karten/H2.webp",
+   "modell": "modelle/H2.glb"
+  },
+  {
+   "id": "H3",
+   "gruppe": "H",
+   "gruppenname": "Grenzgebiete & Dorflifte",
+   "name": "Sinswang",
+   "ort": "Weiler-Simmerberg",
+   "werte": [
+    890.0,
+    1.0,
+    4.0,
+    80.0,
+    0.5
+   ],
+   "highlight": "Kleiner Dorflift bei Oberstaufen mit Übungsliften und Raketenlift, ideal für die ersten Schwünge.",
+   "lat": 47.5639,
+   "lon": 10.00845,
+   "tal": 810,
+   "gipfel": 890,
+   "gelaende": [
+    774,
+    932
+   ],
+   "lifte": [
+    {
+     "name": "Skilift Sinswang",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift Sinswang",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Übungslift Sinswang",
+     "typ": "Seillift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Raketenlift Sinswang",
+     "typ": "Tellerlift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "leicht": 1.2
+   },
+   "bild": "karten/H3.webp",
+   "modell": "modelle/H3.glb"
+  },
+  {
+   "id": "H4",
+   "gruppe": "H",
+   "gruppenname": "Grenzgebiete & Dorflifte",
+   "name": "Stinesser",
+   "ort": "Fischen",
+   "werte": [
+    840.0,
+    1.0,
+    3.0,
+    80.0,
+    0.6
+   ],
+   "highlight": "Familienlifte am Ortsrand von Fischen mit beleuchteter, beschneiter Piste für Abendskilauf.",
+   "lat": 47.45574,
+   "lon": 10.2665,
+   "tal": 760,
+   "gipfel": 840,
+   "gelaende": [
+    756,
+    911
+   ],
+   "lifte": [
+    {
+     "name": "Buckelwiesenlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    },
+    {
+     "name": "Stinnesserlift",
+     "typ": "Schlepplift",
+     "stillgelegt": false
+    }
+   ],
+   "pisten_osm": {
+    "Skiroute": 0.2,
+    "leicht": 0.9,
+    "mittel": 0.3
+   },
+   "bild": "karten/H4.webp",
+   "modell": "modelle/H4.glb"
+  }
+ ]
+}
