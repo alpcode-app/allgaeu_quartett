@@ -3,28 +3,149 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Allgäu Quartett</title>
-  <meta name="description" content="Die 32 Skigebiete des Allgäu Quartetts mit 3D-Gelände, Wetter und Zusatzinfos.">
+  <title>Allgäu Quartett – 32 Skigebiete als Kartenspiel</title>
+  <meta name="description" content="Das Quartett mit den 32 Skigebieten des Allgäus – vom Nebelhorn bis zum Tegelberg. Mit 3D-Gelände auf jeder Karte und kostenloser App zum Spielen gegen den Computer oder mit Freunden.">
+  <meta property="og:title" content="Allgäu Quartett – 32 Skigebiete als Kartenspiel">
+  <meta property="og:description" content="Gipfelhöhe, Pistenkilometer, Lifte: Welches Allgäuer Skigebiet sticht? Kartenspiel + kostenlose App.">
+  <meta property="og:image" content="karten/A1.webp">
   <link rel="icon" href="logo.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="start.css">
 </head>
 <body>
-  <main class="seite">
-    <header class="kopf">
-      <img class="logo" src="logo.png" alt="">
-      <div>
-        <h1>Allgäu Quartett</h1>
-        <div class="unter">32 Skigebiete der Allgäuer Alpen · 3D-Gelände · Wetter</div>
+  <!--
+    Zum Anpassen:
+    - KAUFEN: href der Knöpfe mit class="kaufen" durch den Stripe-Zahlungslink ersetzen
+      (bis dahin öffnen sie eine Vorbestellungs-Mail).
+    - E-Mail-Adresse: info@allgaeu-quartett.de (nach Registrierung als Weiterleitung einrichten).
+  -->
+  <nav class="leiste">
+    <a class="marke" href="./"><img src="logo.png" alt="">Allgäu Quartett</a>
+    <div class="links">
+      <a href="#karten">Karten</a>
+      <a href="#app">App</a>
+      <a href="#haendler">Für Bergbahnen</a>
+      <a class="knopf gold klein kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Kaufen</a>
+    </div>
+  </nav>
+
+  <header class="held">
+    <div class="held-text">
+      <p class="dach">Das Kartenspiel der Allgäuer Alpen</p>
+      <h1>32 Skigebiete.<br>Ein Spiel.<br><span>Wer sticht?</span></h1>
+      <p class="lead">Gipfelhöhe, Pistenkilometer, Lifte, Höhenunterschied, längste Abfahrt – vom Nebelhorn bis zum Tegelberg. Jede Karte mit 3D-Geländemodell und QR-Code zur Online-Ansicht.</p>
+      <div class="knoepfe">
+        <a class="knopf gold kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Quartett kaufen · 12,90 €</a>
+        <a class="knopf hohl" href="#app">Kostenlose App</a>
       </div>
-    </header>
-    <input id="suche" class="suche" type="search" placeholder="Skigebiet oder Ort suchen …" aria-label="Suche">
-    <div id="liste"><p>Karten werden geladen …</p></div>
-    <p class="fuss">
-      Gelände: Copernicus DEM GLO-30 © DLR e.V./Airbus · Karte: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> (ODbL) ·
-      Wetter: <a href="https://open-meteo.com/">Open-Meteo</a> (CC BY 4.0) · Angaben ca. · <a href="datenschutz.html">Datenschutz</a>
-    </p>
+      <p class="klein-text">Versand ab Dezember 2026 · rechtzeitig vor Weihnachten</p>
+    </div>
+    <div class="held-bild" aria-hidden="true">
+      <img class="k k1" src="karten/E4.webp" alt="">
+      <img class="k k2" src="karten/C1.webp" alt="">
+      <img class="k k3" src="karten/A1.webp" alt="">
+    </div>
+  </header>
+
+  <main>
+    <section class="fakten">
+      <div><b>32</b><span>Skigebiete</span></div>
+      <div><b>8</b><span>Quartette A–H</span></div>
+      <div><b>5</b><span>Kategorien</span></div>
+      <div><b>59 × 91</b><span>mm Kartenformat</span></div>
+    </section>
+
+    <section id="karten" class="block">
+      <h2>Die Karten</h2>
+      <p class="leise-text">Echte Werte, echtes Gelände. Wische durch eine Auswahl – oder sieh dir alle 32 Karten mit drehbarem 3D-Modell und aktuellem Wetter an.</p>
+      <div class="band">
+        <a href="karte.html?id=A1"><img src="karten/A1.webp" alt="Karte Nebelhorn" loading="lazy"></a>
+        <a href="karte.html?id=A2"><img src="karten/A2.webp" alt="Karte Fellhorn / Kanzelwand" loading="lazy"></a>
+        <a href="karte.html?id=C1"><img src="karten/C1.webp" alt="Karte Balderschwang" loading="lazy"></a>
+        <a href="karte.html?id=D2"><img src="karten/D2.webp" alt="Karte Oberjoch" loading="lazy"></a>
+        <a href="karte.html?id=E4"><img src="karten/E4.webp" alt="Karte Tegelberg" loading="lazy"></a>
+        <a href="karte.html?id=F1"><img src="karten/F1.webp" alt="Karte Neunerköpfle" loading="lazy"></a>
+        <a href="karte.html?id=C3"><img src="karten/C3.webp" alt="Karte Hochgrat" loading="lazy"></a>
+        <a href="karte.html?id=G2"><img src="karten/G2.webp" alt="Karte Buronlifte" loading="lazy"></a>
+      </div>
+      <p><a class="knopf hohl" href="alle-karten.html">Alle 32 Karten ansehen →</a></p>
+    </section>
+
+    <section class="block">
+      <h2>So wird gespielt</h2>
+      <ol class="schritte">
+        <li><b>Karten mischen und verteilen.</b> Jeder hält seinen Stapel verdeckt und sieht nur die oberste Karte.</li>
+        <li><b>Besten Wert ansagen.</b> „Nebelhorn, 2224 Meter Gipfelhöhe!“ – wer den höheren Wert hat, gewinnt die Karten.</li>
+        <li><b>Alle Karten sammeln.</b> Wer am Ende alles hat, ist Quartett-König. Ideal für die Hütte, die Anreise oder den Abend nach dem Skitag.</li>
+      </ol>
+    </section>
+
+    <section id="app" class="block app">
+      <div>
+        <h2>Die kostenlose App</h2>
+        <p class="leise-text">Kein Kartenspiel dabei? Spiel das Allgäu Quartett auf dem Handy.</p>
+        <ul class="haken">
+          <li>Gegen den Computer – leicht für Kinder, schwer für Profis</li>
+          <li>Mit Freunden von Handy zu Handy, verbunden per QR-Code</li>
+          <li>Ohne Anmeldung, ohne Werbung, ohne Datensammlung</li>
+          <li>Alle 32 Karten in der Sammlung</li>
+        </ul>
+        <a class="knopf gold" href="https://play.google.com/store/apps/details?id=com.alpcode.skiatlas_allgaeu_edition" target="_blank" rel="noopener">Bei Google Play laden</a>
+      </div>
+      <div class="handys" aria-hidden="true">
+        <img src="bilder/01_karte_waehlen.webp" alt="" loading="lazy">
+        <img src="bilder/02_vergleich.webp" alt="" loading="lazy">
+        <img src="bilder/04_qr_verbinden.webp" alt="" loading="lazy">
+      </div>
+    </section>
+
+    <section id="kaufen" class="block">
+      <h2>Quartett bestellen</h2>
+      <div class="preis">
+        <img src="karten/A3.webp" alt="" loading="lazy">
+        <div>
+          <h3>Allgäu Quartett</h3>
+          <p class="betrag">12,90 € <small>zzgl. Versand</small></p>
+          <ul class="haken">
+            <li>32 Karten + Deckblatt, 59 × 91 mm</li>
+            <li>QR-Code auf jeder Karte zur Online-Ansicht mit 3D-Gelände</li>
+            <li>Für 2 und mehr Spieler</li>
+          </ul>
+          <a class="knopf gold kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Jetzt vorbestellen</a>
+          <!-- Ab 01.01.2027: Hinweis ersetzen durch „inkl. 19 % MwSt.“ -->
+          <p class="klein-text">Gemäß § 19 UStG wird keine Umsatzsteuer berechnet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="haendler" class="block haendler">
+      <h2>Für Bergbahnen, Tourist-Infos &amp; Shops</h2>
+      <p class="leise-text">Ihr Skigebiet ist schon im Spiel. Bieten Sie Ihren Gästen ein Mitbringsel, das man nach dem Skitag am Hüttentisch weiterspielt.</p>
+      <div class="pakete">
+        <div><h3>Wiederverkauf</h3><p>Das Quartett für Kasse und Shop, ab 50 Stück, Display-Karton gratis.</p></div>
+        <div><h3>Eigene Edition</h3><p>Ab 500 Stück: Rückseite und Schachtel in Ihrem Design, Ihre Karte vorne.</p></div>
+        <div><h3>Giveaway</h3><p>Für Skischulen, Kinderskikurse und Saisonkarten – mit Staffelpreisen.</p></div>
+        <div><h3>App-Partner</h3><p>Ihr Skigebiet hervorgehoben in der App, mit Link zu Tickets oder Webcam. Ohne Tracking.</p></div>
+      </div>
+      <p class="hinweis"><b>Gründungspartner Saison 26/27:</b> App-Partnerplatz kostenlos zu jeder Bestellung ab 100 Stück. Bestellschluss für Lieferung vor Weihnachten: <b>20. November</b>.</p>
+      <a class="knopf gold" href="mailto:info@allgaeu-quartett.de?subject=H%C3%A4ndleranfrage%20Allg%C3%A4u%20Quartett">Händlerkonditionen anfragen</a>
+    </section>
+
+    <section class="block faq">
+      <h2>Häufige Fragen</h2>
+      <details><summary>Stimmen die Werte auf den Karten?</summary><p>Die Werte wurden im Oktober 2026 mit den Angaben der Bergbahnen und Skigebiets-Portalen abgeglichen und sind gerundet. Hinweise auf Abweichungen nehmen wir gern entgegen.</p></details>
+      <details><summary>Brauche ich die App zum Spielen?</summary><p>Nein. Das Quartett funktioniert ganz klassisch. Die App ist ein kostenloses Extra für unterwegs.</p></details>
+      <details><summary>Gibt es die App auch für iPhone?</summary><p>Die App gibt es derzeit für Android. Die Kartenansicht mit 3D-Gelände funktioniert auf jedem Handy im Browser.</p></details>
+      <details><summary>Was passiert, wenn ich den QR-Code scanne?</summary><p>Es öffnet sich die Online-Ansicht der Karte mit drehbarem 3D-Gelände, aktuellem Wetter, Liften und Pisten.</p></details>
+    </section>
   </main>
-  <script src="app.js"></script>
-  <script>uebersicht();</script>
+
+  <footer class="fuss">
+    <p>
+      <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> ·
+      <a href="mailto:info@allgaeu-quartett.de">info@allgaeu-quartett.de</a>
+    </p>
+    <p>Gelände: Copernicus DEM GLO-30 © DLR e.V./Airbus · Karte: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> (ODbL) · Angaben ca.</p>
+  </footer>
 </body>
 </html>
