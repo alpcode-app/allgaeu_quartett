@@ -64,7 +64,7 @@ async function wetterAbfragen(k, hoehe) {
     hourly: "snow_depth",
     daily: "weather_code,temperature_2m_max,temperature_2m_min,snowfall_sum",
   });
-  const r = await fetch(`https://api.open-meteo.com/v1/forecast?${p}`);
+  const r = await fetch(`/wetter?${p}`);
   if (!r.ok) throw new Error(r.status);
   const j = await r.json();
   const jetzt = j.current.time.slice(0, 13);
