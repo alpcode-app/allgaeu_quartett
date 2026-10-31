@@ -104,3 +104,5 @@ a.knopf.klein { padding: 8px 14px; font-size: .9rem; border-radius: 10px; }
 .faq details p { color: var(--leise); margin: 10px 0 0; }
 
 footer.fuss { padding-top: 30px; padding-bottom: 30px; border-top: 1px solid var(--rand); margin-top: 40px; }
+.versand-hinweis { display: inline-block; margin: 8px 0 0; padding: 4px 10px; border-radius: 8px; font-weight: 700; font-size: .9rem;
+  background: rgba(242,190,60,.15); color: var(--gold-text); }
