@@ -15,8 +15,8 @@
 <body>
   <!--
     Zum Anpassen:
-    - VORBESTELLEN: href der Knöpfe mit class="kaufen" durch den Stripe-Zahlungslink ersetzen
-      (bis dahin öffnen sie eine Vorbestellungs-Mail).
+    - VORBESTELLEN: Stripe-Zahlungslinks stehen im Skript ganz unten (STRIPE_LINKS).
+      Leere Einträge öffnen stattdessen eine Vorbestellungs-Mail.
     - E-Mail-Adresse: info@allgaeu-quartett.de (nach Registrierung als Weiterleitung einrichten).
   -->
   <nav class="leiste">
@@ -25,7 +25,7 @@
       <a href="#karten">Karten</a>
       <a href="#app">App</a>
       <a href="#haendler">Für Bergbahnen</a>
-      <a class="knopf gold klein kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Vorbestellen</a>
+      <a class="knopf gold klein" href="#kaufen">Vorbestellen</a>
     </div>
   </nav>
 
@@ -35,7 +35,7 @@
       <h1>32 Skigebiete.<br>Ein Spiel.<br><span>Wer sticht?</span></h1>
       <p class="lead">Gipfelhöhe, Pistenkilometer, Lifte, Höhenunterschied, längste Abfahrt – vom Nebelhorn bis zum Tegelberg. Jede Karte mit 3D-Geländemodell und QR-Code zur Online-Ansicht.</p>
       <div class="knoepfe">
-        <a class="knopf gold kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Quartett vorbestellen · 12,90 €</a>
+        <a class="knopf gold" href="#kaufen">Quartett vorbestellen · 12,90 €</a>
         <a class="knopf hohl" href="https://play.google.com/store/apps/details?id=com.alpcode.skiatlas_allgaeu_edition&amp;pcampaignid=web_share" target="_blank" rel="noopener">Kostenlose App</a>
       </div>
       <p class="klein-text">Jetzt vorbestellen · Versand ab Dezember möglich</p>
@@ -112,9 +112,21 @@
             <li>QR-Code auf jeder Karte zur Online-Ansicht mit 3D-Gelände</li>
             <li>Für 2 und mehr Spieler</li>
           </ul>
-          <a class="knopf gold kaufen" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20Allg%C3%A4u%20Quartett">Jetzt vorbestellen</a>
-          <!-- Zweiter Stripe-Zahlungslink: 2–10 Stück, Versand 7,69 € -->
-          <a class="knopf hohl kaufen-mehr" href="mailto:info@allgaeu-quartett.de?subject=Vorbestellung%20mehrerer%20Allg%C3%A4u%20Quartette">2–10 Quartette vorbestellen</a>
+          <div class="bestellen">
+            <div class="wahl" role="radiogroup" aria-label="Lieferland">
+              <span class="wahl-titel">Lieferland</span>
+              <label><input type="radio" name="land" value="de" checked><span>Deutschland</span></label>
+              <label><input type="radio" name="land" value="eu"><span>EU</span></label>
+            </div>
+            <div class="wahl" role="radiogroup" aria-label="Menge">
+              <span class="wahl-titel">Menge</span>
+              <label><input type="radio" name="menge" value="1" checked><span>1 Quartett</span></label>
+              <label><input type="radio" name="menge" value="mehr"><span>2–10 Quartette</span></label>
+            </div>
+            <p class="summe" id="summe">12,90 € + 2,90 € Versand = <b>15,80 €</b></p>
+            <a id="bestellknopf" class="knopf gold" href="https://buy.stripe.com/bJe3cv9wycDfaj1eIu2ZO00">Weiter zur Bezahlung</a>
+            <p class="klein-text" id="bestellhinweis" hidden>Für diese Auswahl ist die Online-Bezahlung bald verfügbar – bis dahin per E-Mail vorbestellen.</p>
+          </div>
           <p class="klein-text">Ab 11 Stück bitte per <a href="mailto:info@allgaeu-quartett.de?subject=Bestellung%20Allg%C3%A4u%20Quartett">E-Mail</a> – Versandkosten siehe <a href="versand.html">Versand &amp; Zahlung</a>.</p>
           <!-- Ab 01.01.2027: Hinweis ersetzen durch „inkl. 19 % MwSt.“ -->
           <p class="klein-text">Gemäß § 19 UStG wird keine Umsatzsteuer berechnet.</p>
@@ -152,5 +164,40 @@
     </p>
     <p>Gelände: Copernicus DEM GLO-30 © DLR e.V./Airbus · Karte: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> (ODbL) · Angaben ca.</p>
   </footer>
+  <script>
+    // Stripe-Zahlungslinks je Lieferland und Menge; leer = Vorbestellung per E-Mail
+    const STRIPE_LINKS = {
+      "de-1": "https://buy.stripe.com/bJe3cv9wycDfaj1eIu2ZO00",
+      "de-mehr": "",
+      "eu-1": "",
+      "eu-mehr": "",
+    };
+    const VERSAND = { "de-1": 2.90, "de-mehr": 7.69, "eu-1": 6.99, "eu-mehr": 10.49 };
+    const PREIS = 12.90;
+    const euro = (z) => z.toFixed(2).replace(".", ",") + " €";
+
+    function bestellungAktualisieren() {
+      const land = document.querySelector('input[name="land"]:checked').value;
+      const menge = document.querySelector('input[name="menge"]:checked').value;
+      const schluessel = land + "-" + menge;
+      const versand = VERSAND[schluessel];
+      document.getElementById("summe").innerHTML = menge === "1"
+        ? `${euro(PREIS)} + ${euro(versand)} Versand = <b>${euro(PREIS + versand)}</b>`
+        : `je ${euro(PREIS)} + ${euro(versand)} Versand pro Bestellung`;
+      const knopf = document.getElementById("bestellknopf");
+      const link = STRIPE_LINKS[schluessel];
+      if (link) {
+        knopf.href = link;
+        knopf.textContent = "Weiter zur Bezahlung";
+      } else {
+        const betreff = `Vorbestellung Allgäu Quartett (${land === "de" ? "Deutschland" : "EU"}, ${menge === "1" ? "1 Stück" : "2–10 Stück"})`;
+        knopf.href = "mailto:info@allgaeu-quartett.de?subject=" + encodeURIComponent(betreff);
+        knopf.textContent = "Per E-Mail vorbestellen";
+      }
+      document.getElementById("bestellhinweis").hidden = !!link;
+    }
+    document.querySelectorAll('.bestellen input').forEach((e) => e.addEventListener("change", bestellungAktualisieren));
+    bestellungAktualisieren();
+  </script>
 </body>
 </html>

@@ -106,3 +106,14 @@ a.knopf.klein { padding: 8px 14px; font-size: .9rem; border-radius: 10px; }
 footer.fuss { padding-top: 30px; padding-bottom: 30px; border-top: 1px solid var(--rand); margin-top: 40px; }
 .versand-hinweis { display: inline-block; margin: 8px 0 0; padding: 4px 10px; border-radius: 8px; font-weight: 700; font-size: .9rem;
   background: rgba(242,190,60,.15); color: var(--gold-text); }
+
+/* Bestellauswahl */
+.bestellen { margin: 4px 0 6px; }
+.wahl { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 10px; }
+.wahl-titel { width: 100%; font-size: .85rem; font-weight: 700; color: var(--leise); }
+.wahl label { cursor: pointer; }
+.wahl input { position: absolute; opacity: 0; pointer-events: none; }
+.wahl label span { display: inline-block; padding: 9px 14px; border-radius: 12px; border: 2px solid var(--rand); font-weight: 700; font-size: .95rem; }
+.wahl input:checked + span { border-color: var(--gold); background: rgba(242,190,60,.15); }
+.wahl input:focus-visible + span { outline: 2px solid var(--akzent); outline-offset: 2px; }
+.summe { margin: 6px 0 14px; font-size: 1.05rem; }
